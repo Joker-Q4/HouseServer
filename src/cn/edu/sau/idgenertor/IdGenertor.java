@@ -9,7 +9,7 @@ import java.util.Random;
 public class IdGenertor {
 	
 	/**
-	 * Éú³ÉUUID
+	 * ç”ŸæˆUUID
 	 * 
 	 * @return UUID
 	 */
@@ -18,7 +18,7 @@ public class IdGenertor {
     }
 	
 	public static String generateOrdersNum() {
-		//YYYYMMDD+µ±Ç°Ê±¼ä£¨ÄÉÃë£©  £º   1Ãë=1000ºÁÃë=1000*1000ÄÉÃë
+		//YYYYMMDD+å½“å‰æ—¶é—´ï¼ˆçº³ç§’ï¼‰  ï¼š   1ç§’=1000æ¯«ç§’=1000*1000çº³ç§’
 		Date now = new Date();
 		DateFormat df = new SimpleDateFormat("yyyyMMdd");
 		String str = df.format(now);
